@@ -4,7 +4,6 @@ import "./App.css";
 function App() {
   const [cssInput, setCssInput] = useState("");
   const [convertedCss, setConvertedCss] = useState("");
-  const [showAlert, setShowAlert] = useState(true);
   const handleConvertClick = (cssInput) => {
     cssInput = cssInput.replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, "");
     const cssRules = cssInput.split(";");
@@ -152,7 +151,6 @@ function App() {
 
   const handleCopyClick = () => {
     navigator.clipboard.writeText(convertedCss);
-    setShowAlert(true);
     alert("Copied");
   };
 
