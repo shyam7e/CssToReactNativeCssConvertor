@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b40710e4.css",
-    "main.js": "/static/js/main.67c569c4.js",
-    "static/js/787.80debb4b.chunk.js": "/static/js/787.80debb4b.chunk.js",
-    "index.html": "/index.html",
-    "main.b40710e4.css.map": "/static/css/main.b40710e4.css.map",
-    "main.67c569c4.js.map": "/static/js/main.67c569c4.js.map",
-    "787.80debb4b.chunk.js.map": "/static/js/787.80debb4b.chunk.js.map"
+    "main.css": "/CssToReactNativeCssConvertor/static/css/main.b40710e4.css",
+    "main.js": "/CssToReactNativeCssConvertor/static/js/main.060b83e7.js",
+    "static/js/787.80debb4b.chunk.js": "/CssToReactNativeCssConvertor/static/js/787.80debb4b.chunk.js",
+    "index.html": "/CssToReactNativeCssConvertor/index.html",
+    "main.b40710e4.css.map": "/CssToReactNativeCssConvertor/static/css/main.b40710e4.css.map",
+    "main.060b83e7.js.map": "/CssToReactNativeCssConvertor/static/js/main.060b83e7.js.map",
+    "787.80debb4b.chunk.js.map": "/CssToReactNativeCssConvertor/static/js/787.80debb4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b40710e4.css",
-    "static/js/main.67c569c4.js"
+    "static/js/main.060b83e7.js"
   ]
 }
