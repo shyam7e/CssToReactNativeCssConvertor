@@ -143,6 +143,7 @@ function App() {
         case "height":
           rnStyles.height = parseInt(value, 10);
           break;
+        default:
       }
     });
 
