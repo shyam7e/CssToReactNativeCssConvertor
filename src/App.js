@@ -16,54 +16,54 @@ function App() {
         // Background Properties
 
         case "background":
-          rnStyles.backgroundColor = value;
+          rnStyles.backgroundColor = value.trim();
           break;
         case "background-color":
-          rnStyles.backgroundColor = value;
+          rnStyles.backgroundColor = value.trim();
           break;
         // Text Properties
         case "font-family":
           rnStyles.fontFamily = value.trim().replace(/['"]+/g, "");
           break;
         case "font-style":
-          rnStyles.fontStyle = value;
+          rnStyles.fontStyle = value.trim();
           break;
         case "font-size":
-          rnStyles.fontSize = parseInt(value, 10);
+          rnStyles.fontSize = parseInt(value.trim(), 10);
           break;
         case "font-weight":
-          rnStyles.fontWeight = value;
+          rnStyles.fontWeight = value.trim();
           break;
         case "letter-spacing":
-          rnStyles.letterSpacing = parseFloat(value);
+          rnStyles.letterSpacing = parseFloat(value.trim());
           break;
         case "line-height":
-          rnStyles.lineHeight = parseInt(value, 10);
+          rnStyles.lineHeight = parseInt(value.trim(), 10);
           break;
         case "text-align":
-          rnStyles.textAlign = value;
+          rnStyles.textAlign = value.trim();
           break;
         // Margin Properties
         case "margin":
           const marginValues = value.split(" ");
           switch (marginValues.length) {
             case 1:
-              rnStyles.margin = parseInt(value, 10);
+              rnStyles.margin = parseInt(value.trim(), 10);
               break;
             case 2:
-              rnStyles.marginVertical = parseInt(marginValues[0], 10);
-              rnStyles.marginHorizontal = parseInt(marginValues[1], 10);
+              rnStyles.marginVertical = parseInt(marginValues[0].trim(), 10);
+              rnStyles.marginHorizontal = parseInt(marginValues[1].trim(), 10);
               break;
             case 3:
-              rnStyles.marginTop = parseInt(marginValues[0], 10);
-              rnStyles.marginHorizontal = parseInt(marginValues[1], 10);
-              rnStyles.marginBottom = parseInt(marginValues[2], 10);
+              rnStyles.marginTop = parseInt(marginValues[0].trim(), 10);
+              rnStyles.marginHorizontal = parseInt(marginValues[1].trim(), 10);
+              rnStyles.marginBottom = parseInt(marginValues[2].trim(), 10);
               break;
             case 4:
-              rnStyles.marginTop = parseInt(marginValues[0], 10);
-              rnStyles.marginRight = parseInt(marginValues[1], 10);
-              rnStyles.marginBottom = parseInt(marginValues[2], 10);
-              rnStyles.marginLeft = parseInt(marginValues[3], 10);
+              rnStyles.marginTop = parseInt(marginValues[0].trim(), 10);
+              rnStyles.marginRight = parseInt(marginValues[1].trim(), 10);
+              rnStyles.marginBottom = parseInt(marginValues[2].trim(), 10);
+              rnStyles.marginLeft = parseInt(marginValues[3].trim(), 10);
               break;
             default:
               break;
@@ -71,29 +71,29 @@ function App() {
           break;
         // margin
         case "margin-top":
-          rnStyles.marginTop = parseInt(value, 10);
+          rnStyles.marginTop = parseInt(value.trim(), 10);
           break;
         case "margin-left":
-          rnStyles.marginLeft = parseInt(value, 10);
+          rnStyles.marginLeft = parseInt(value.trim(), 10);
           break;
         case "margin-right":
-          rnStyles.marginRight = parseInt(value, 10);
+          rnStyles.marginRight = parseInt(value.trim(), 10);
           break;
         case "margin-bottom":
-          rnStyles.marginBottom = parseInt(value, 10);
+          rnStyles.marginBottom = parseInt(value.trim(), 10);
           break;
         // padding
         case "padding-top":
-          rnStyles.paddingTop = parseInt(value, 10);
+          rnStyles.paddingTop = parseInt(value.trim(), 10);
           break;
         case "padding-left":
-          rnStyles.paddingLeft = parseInt(value, 10);
+          rnStyles.paddingLeft = parseInt(value.trim(), 10);
           break;
         case "padding-right":
-          rnStyles.paddingRight = parseInt(value, 10);
+          rnStyles.paddingRight = parseInt(value.trim(), 10);
           break;
         case "padding-bottom":
-          rnStyles.paddingBottom = parseInt(value, 10);
+          rnStyles.paddingBottom = parseInt(value.trim(), 10);
           break;
         // Padding Properties
         case "padding":
@@ -133,7 +133,7 @@ function App() {
           break;
         // color Properties
         case "color":
-          rnStyles.color = value;
+          rnStyles.color = value.trim();
           break;
         // width
         case "width":
