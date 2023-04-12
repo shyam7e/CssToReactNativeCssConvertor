@@ -131,6 +131,12 @@ function App() {
         case "border-width":
           rnStyles.borderWidth = parseInt(value, 10);
           break;
+        case "border-radius":
+          rnStyles.borderRadius = parseInt(value, 10);
+          break;
+        case "border-color":
+          rnStyles.borderColor = parseInt(value, 10);
+          break;
         // color Properties
         case "color":
           rnStyles.color = value.trim();
